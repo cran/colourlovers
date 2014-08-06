@@ -8,17 +8,16 @@ The **colourlovers** package connects R to the [COLOURlovers](http://www.colourl
 
 The **colourlovers** package is released under GPL-2, while the COLOURlovers community-generated data returned by the API is available under the [Creative Commons Attribution-NonCommercial-ShareAlike 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/) license.
 
----
 ## Installation ##
 
 You can find a stable release on [CRAN](http://cran.r-project.org/web/packages/colourlovers/index.html), or install the latest development version from GitHub using [Hadley's](http://had.co.nz/) [devtools](http://cran.r-project.org/web/packages/devtools/index.html) package:
+
 ```
 # install.packages("devtools")
 library("devtools")
 install_github("leeper/colourlovers")
 ```
 
----
 ## Functionality ##
 
 The API functionality is broken down into five categories: colors, palettes, patterns, lovers, and statistics. The next sections provide examples of each.
@@ -123,8 +122,6 @@ plot(palette1)
 Here's an example of the image URL at work (credit "Anaconda" (113451) by kunteper):
 
 [![Anaconda (113451) by kunteper](http://www.colourlovers.com/paletteImg/2B2D42/7A7D7F/B1BBCF/6E0B21/9B4D73/Anaconda.png)](http://www.colourlovers.com/paletteImg/2B2D42/7A7D7F/B1BBCF/6E0B21/9B4D73/Anaconda.png)
-
-
 
 
 ### Get Patterns (Designs) ###
@@ -239,4 +236,22 @@ Total lovers: 4116021
 
 The `plot` method for the various **colourlovers** functions pulls PNG-formatted images from the COLOURlovers website and displays them in R graphics, which is helpful for previewing particular colors, palettes, or patterns. But, using the returned colors in R graphics requires extracting the relevant colors and using them in some way. Thus the function `swatch` (as shown above) extracts color information from any of the functions, and converts them to a character vector of hexidecimal color representations, which can easily be directly plugged into subsequent graphics calls.
 
-*MORE DETAILS COMING SOON*
+Here's a simple barplot using the built-in `VADeaths` dataset redesigned using four different top color patterns:
+
+```
+palette1 <- clpalette('113451')
+palette2 <- clpalette('92095')
+palette3 <- clpalette('629637')
+palette4 <- clpalette('694737')
+
+layout(matrix(1:4, nrow=2))
+par(mar=c(2,2,2,2))
+barplot(VADeaths, col = swatch(palette1)[[1]], border = NA)
+barplot(VADeaths, col = swatch(palette2)[[1]], border = NA)
+barplot(VADeaths, col = swatch(palette3)[[1]], border = NA)
+barplot(VADeaths, col = swatch(palette4)[[1]], border = NA)
+```
+
+The result:
+
+![](http://i.imgur.com/KQOFx9G.png)
