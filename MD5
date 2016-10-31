@@ -1,4 +1,4 @@
-165cb52d4a5292855de16fbe9251e64e *DESCRIPTION
+2a3d95f805014fa224601180754b9c44 *DESCRIPTION
 45c42314d982471b6759ec5584d2b2d7 *NAMESPACE
 01806fc4d368fd466782d8eed239bced *NEWS
 0d8d468d76a0396987ca9f4bd2617199 *R/clQuery.r
@@ -9,14 +9,14 @@ fd7c64054e7a7ba93d890edc7ba83088 *R/clpalettes.r
 32c09b4c004f4b57144f4994ea073a16 *R/clpng.r
 06c52d820b49fda8295742be2c6541f6 *R/clstats.r
 f8aeba9b7500262c49a397fcdf8f6649 *R/swatch.r
-fb0aa37886697abaf9702ce48c8d9444 *README.md
+ce24887895ad1f9b379d2c52e45ffbd5 *README.md
 b66af3fa9e296995210549a3813c824b *inst/CITATION
+c292725320309f18d15921f73c954a16 *man/clQuery.Rd
 6215ebc0e4eb56e2343b57c1734e2dc2 *man/clcolors.Rd
 4280fe805a6b2b5e6b90897da5e73b81 *man/cllovers.Rd
 a9db4292078f5c003fd08b142f862e82 *man/clpalettes.Rd
 dcaee96dcc7b52bba44dd6844b5bbb1b *man/clpatterns.Rd
 556b97f3c1d070a0a1a8b82aef716854 *man/clpng.Rd
-c292725320309f18d15921f73c954a16 *man/clquery.Rd
 71bb0f08a89bcb925d64cb01f8bbef6d *man/clstats.Rd
 7b36d264384cbe9722e3125833cfdf4d *man/colourlovers-package.Rd
 dc08a15db91f5ae78655d7c1b8815ecc *man/swatch.Rd
