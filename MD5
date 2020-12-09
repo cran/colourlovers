@@ -1,4 +1,4 @@
-b2b83980dfc0cb2b6133341d2780103e *DESCRIPTION
+fa6f5cccf348558c9991598b33f9e054 *DESCRIPTION
 06f69ddc9a52581550231b85fe9c4de9 *NAMESPACE
 16fe8a35070c40b6b5814b8e7132cc9d *NEWS.md
 2b54feb3a59a9c389435bdcbd08a3705 *R/clQuery.r
@@ -10,7 +10,7 @@ b2b83980dfc0cb2b6133341d2780103e *DESCRIPTION
 ab5386969c1932b42641c0ff132b9c3f *R/clstats.r
 b115ba88c0ea743d5be5d7e5b100c460 *R/colourlovers-package.R
 348ee67cc97d8ace9cbfa61419918e76 *R/swatch.r
-273ca088b4c7b2934b6905b2cbd8c1fe *README.md
+2fdbe47f485689a7ab3fb04f91798ec5 *README.md
 1bd3d4ec6133849441fb57d618989b71 *inst/CITATION
 64828a506c252c3aa1707bd2d4e4d6f2 *man/clcolors.Rd
 33bc95b068e419ca60d758f53588a335 *man/cllovers.Rd
@@ -36,12 +36,12 @@ b0ab17eb094c0a55dc40999f1f0c666a *tests/figs/deps.txt
 cbc716c498c7dbb8f4cdec3341ca60c3 *tests/figs/plotting/single-pattern-plot.svg
 45dadfa44503fff34c36b8643cb4c4a2 *tests/figs/plotting/single-small-palette-plot.svg
 61637de7350b97d657aeed48eb3c9120 *tests/test-all.R
-d3cdd7615ee5f8cd1f534a671b9d722a *tests/testthat/helper.R
+df5a0eee7ec3c5871643c4fc9fc5f158 *tests/testthat/helper.R
 1ce70bfbbc979df7a540fbe4c41a4b88 *tests/testthat/test-colors.R
 b8a69a99880348988a37e0c31ad79d04 *tests/testthat/test-lovers.R
 24790a2443c5d1e3f9184dcc81b4506c *tests/testthat/test-palettes.R
 538e5ab42e6bfae5ffb7bb5a7b834546 *tests/testthat/test-patterns.R
-29c83253cfa8c0feae9d58bc88118802 *tests/testthat/test-plots.R
+cc537fac4ed1a4168a7bffbdbde98378 *tests/testthat/test-plots.R
 7a2b671cc0a5d1ec2c0c3b9707ff831d *tests/testthat/test-statistics.R
 f70fba60d8f0812619798dbea97beccd *tests/testthat/test-warnings-errors.R
 d7a45bacbebffc60bde07b6eed4d99d2 *tests/www.colourlovers.com/api/color/0000FF-490170.R
@@ -124,8 +124,8 @@ de702bc5f69cbacc39367630d89b7813 *tests/www.colourlovers.com/api/patterns/new-c5
 6ddca4a82d3fc9090f030739412d97bd *tests/www.colourlovers.com/api/patterns/top-490170.R
 5796587e43f72f56794f0e6c2dd34d3f *tests/www.colourlovers.com/api/patterns/top-e8ffb5.R
 c896a20eec2d15ea01a346e2074867c7 *tests/www.colourlovers.com/api/stats/colors-490170.R
-e5d15da370c07785eb72b106845f90e9 *tools/README-barplot-grid-1.png
-bd4b5897574c5cd5397eb4f6d8b7aec7 *tools/README-pattern-1.png
-621907f124cc200c6819adf4b1bded7a *tools/README-pattern-pie-1.png
-4d84717681dec66cb2c3c87308c6ac02 *tools/README-single-color-1.png
-fef909cc293e4ff86b3af5f191acb385 *tools/README-single-palette-1.png
+863a3385fd502d3833b3a0b3c846b137 *tools/README-barplot-grid-1.png
+6fcadc2e9ff804f4352dcdd6fa6efc75 *tools/README-pattern-1.png
+850e14635eeec9f864bc04f3f278a0a6 *tools/README-pattern-pie-1.png
+3d5a3affda955dc438ae699e5239eaa4 *tools/README-single-color-1.png
+17d81688d0152db622d244f0c1441323 *tools/README-single-palette-1.png
